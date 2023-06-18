@@ -9,7 +9,7 @@ export default function Login() {
       <LogoHeader />
 
       {/* ✅ Form & Buttons */}
-      <div className="mb-32 flex flex-col gap-4 text-center lg:mb-0">
+      <div className="mb-32 flex flex-col gap-4 text-center lg:mb-0 z-20">
         {/* 📝 Form */}
         <form className="flex flex-col text-left">
           <label htmlFor="input-email">Email or Username</label>

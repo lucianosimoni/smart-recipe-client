@@ -24,7 +24,7 @@ export default function Button({
   const buttonStyles = {
     normal:
       "group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30",
-    main: "group rounded-lg border border-transparent px-5 py-4 transition-colors border-gray-300 hover:bg-gray-100 dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30",
+    main: "group rounded-lg border px-5 py-4 transition-colors border-gray-300 hover:bg-gray-100 dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30",
   };
   const textStyles = {
     large: "flex gap-2 justify-center text-3xl font-semibold",

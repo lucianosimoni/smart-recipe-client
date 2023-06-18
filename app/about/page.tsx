@@ -11,7 +11,7 @@ export default function About() {
       {/* 📦 Middle Grid */}
       <div className="w-full max-w-5xl flex flex-col text-center items-center gap-16 lg:flex-row lg:text-left lg:place-items-center">
         {/* 🥬 Text */}
-        <div className="flex flex-col items-center w-full lg:w-2/3">
+        <div className="flex flex-col items-center w-full lg:w-2/3 z-20">
           <h1 className="m-0 max-w-[30ch] text-2xl font-bold mb-4 lg: text-center">
             Welcome to our Recipe App! 😄
           </h1>

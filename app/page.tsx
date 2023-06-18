@@ -23,7 +23,7 @@ export default function Home() {
 
           {/* 🥕🍅 Floating Images */}
           <Image
-            className="dark:invert absolute left-0 lg:-left-28 lg:top-20 dark:drop-shadow-[0_0_0.3rem_#ffffff70] animate-[spin_40s_linear_infinite]"
+            className="dark:opacity-50 absolute left-0 lg:-left-28 lg:top-20 dark:drop-shadow-[0_0_0.3rem_#65656550] animate-[spin_40s_linear_infinite]"
             src="/carrot.svg"
             alt="Carrot"
             width={90}
@@ -31,7 +31,7 @@ export default function Home() {
             priority
           />
           <Image
-            className="dark:invert absolute -right-10 -top-20 lg:-right-96 dark:drop-shadow-[0_0_0.3rem_#ffffff70]  animate-[spin_60s_linear_infinite]"
+            className="dark:opacity-50 absolute -right-10 -top-20 lg:-right-96 dark:drop-shadow-[0_0_0.3rem_#65656550]  animate-[spin_60s_linear_infinite]"
             src="/tomato.svg"
             alt="Tomato"
             width={90}
