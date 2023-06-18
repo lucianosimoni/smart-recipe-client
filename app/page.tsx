@@ -1,12 +1,11 @@
 import LogoHeader from "./logoHeader";
-import Footer from "./footer";
-
-import Image from "next/image";
 import Button from "./button";
+import Footer from "./footer";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-8 sm:p-24 overflow-hidden">
+    <main className="flex w-full h-[100dvh] flex-col items-center justify-between p-8 sm:p-24 overflow-x-hidden overflow-y-auto">
       {/* ✉️ Title */}
       <LogoHeader />
 
@@ -15,7 +14,11 @@ export default function Home() {
         {/* 🥬 Text */}
         <div className="relative w-fit lg:w-2/3">
           <p className="m-0 max-w-[30ch] text-3xl">
-            Enhanced Cooking Experience: Personalized Recipes with AI 🧠
+            Enhanced Cooking Experience: Personalized{" "}
+            <b className=" dark:drop-shadow-[0_0_0.3rem_#ffffff70]">
+              Recipes with AI
+            </b>{" "}
+            🧠
           </p>
 
           {/* 🥕🍅 Floating Images */}

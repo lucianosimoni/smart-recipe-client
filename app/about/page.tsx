@@ -4,12 +4,12 @@ import Footer from "../footer";
 
 export default function About() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-8 sm:p-24 overflow-hidden">
+    <main className="flex h-[100dvh] flex-col items-center justify-between p-8 sm:p-24 overflow-x-hidden overflow-y-auto">
       {/* ✉️ Title */}
       <LogoHeader />
 
       {/* 📦 Middle Grid */}
-      <div className="w-full max-w-5xl flex flex-col text-center gap-16 lg:flex-row lg:text-left lg:place-items-center">
+      <div className="w-full max-w-5xl flex flex-col text-center items-center gap-16 lg:flex-row lg:text-left lg:place-items-center">
         {/* 🥬 Text */}
         <div className="flex flex-col items-center w-full lg:w-2/3">
           <h1 className="m-0 max-w-[30ch] text-2xl font-bold mb-4 lg: text-center">
@@ -38,12 +38,12 @@ export default function About() {
         </div>
 
         {/* ✅ Buttons */}
-        <div className="mb-32 flex flex-col gap-4 text-center lg:mb-0">
+        <div className="mb-32 flex flex-col w-fit gap-4 text-center lg:mb-0">
           {/* 🏠 Home */}
           <Button href="/" text="Home" arrowPosition="left" />
 
           {/* ▶️ Start now */}
-          <Button href="/login" text="Start Now" />
+          <Button href="/login" text="Start Now" mainActionStyle />
         </div>
       </div>
 

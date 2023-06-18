@@ -4,7 +4,7 @@ import Footer from "../footer";
 
 export default function SignUp() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-8 sm:p-24 overflow-hidden">
+    <main className="flex h-[100dvh] flex-col items-center justify-between p-8 sm:p-24 overflow-x-hidden overflow-y-auto">
       {/* ✉️ Title */}
       <LogoHeader />
 
