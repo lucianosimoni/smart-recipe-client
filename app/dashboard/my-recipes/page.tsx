@@ -1,7 +1,7 @@
-import Button from "@/app/button";
-import LogoHeader from "@/app/logoHeader";
-import PageWrapper from "@/app/pageWrapper";
-import NavigationBar from "../navigationBar";
+import LogoHeader from "@/app/_components/logoHeader";
+import Button from "@/app/_components/button";
+import PageWrapper from "@/app/_components/pageWrapper";
+import NavigationBar from "@/app/_components/navigationBar";
 
 export default function MyRecipes() {
   return (

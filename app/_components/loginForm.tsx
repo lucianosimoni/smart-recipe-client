@@ -1,7 +1,7 @@
 "use client";
 
-import Button from "../button";
-import LoadingSpinner from "../loadingSpinner";
+import Button from "@/app/_components/button";
+import LoadingSpinner from "@/app/_components/loadingSpinner";
 import { AnimatePresence } from "framer-motion";
 import { isUserLoggedIn, userLogin } from "@/utils/authUtils";
 import { useEffect, useState } from "react";

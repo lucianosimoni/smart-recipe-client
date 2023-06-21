@@ -27,9 +27,10 @@ export default function Button({
     main: "group rounded-lg border px-5 py-4 transition-colors border-gray-300 hover:bg-gray-100 dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30",
   };
   const textStyles = {
-    large: "flex gap-2 justify-center text-3xl font-semibold",
-    normal: "flex gap-2 justify-center text-2xl font-semibold",
-    small: "flex gap-2 justify-center text-xl font-semibold",
+    large: "flex gap-2 justify-center text-3xl font-semibold whitespace-nowrap",
+    normal:
+      "flex gap-2 justify-center text-2xl font-semibold whitespace-nowrap",
+    small: "flex gap-2 justify-center text-xl font-semibold whitespace-nowrap",
   };
 
   return (

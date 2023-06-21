@@ -1,7 +1,7 @@
-import LogoHeader from "../logoHeader";
-import Button from "../button";
-import Footer from "../footer";
-import PageWrapper from "../pageWrapper";
+import LogoHeader from "@/app/_components/logoHeader";
+import Button from "@/app/_components/button";
+import PageWrapper from "@/app/_components/pageWrapper";
+import Footer from "@/app/_components/footer";
 
 export default function About() {
   return (
@@ -46,7 +46,7 @@ export default function About() {
             <Button href="/" text="Home" arrowPosition="left" />
 
             {/* ▶️ Start now */}
-            <Button href="/login" text="Start Now" mainActionStyle />
+            <Button href="/login" text="Start now" mainActionStyle />
           </div>
         </div>
       </PageWrapper>

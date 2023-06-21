@@ -1,8 +1,8 @@
-import LogoHeader from "./logoHeader";
-import Button from "./button";
-import Footer from "./footer";
+import LogoHeader from "@/app/_components/logoHeader";
+import Button from "@/app/_components/button";
+import Footer from "@/app/_components/footer";
+import PageWrapper from "@/app/_components/pageWrapper";
 import Image from "next/image";
-import PageWrapper from "./pageWrapper";
 
 export default function Home() {
   return (

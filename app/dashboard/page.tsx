@@ -1,7 +1,7 @@
-import LogoHeader from "../logoHeader";
-import Button from "../button";
-import PageWrapper from "../pageWrapper";
-import NavigationBar from "./navigationBar";
+import LogoHeader from "@/app/_components/logoHeader";
+import Button from "@/app/_components/button";
+import PageWrapper from "@/app/_components/pageWrapper";
+import NavigationBar from "@/app/_components/navigationBar";
 
 export default function Dashboard() {
   return (

@@ -1,8 +1,8 @@
-import LogoHeader from "../logoHeader";
-import Button from "../button";
-import Footer from "../footer";
-import PageWrapper from "../pageWrapper";
-import LoginForm from "./loginForm";
+import LogoHeader from "@/app/_components/logoHeader";
+import Button from "@/app/_components/button";
+import Footer from "@/app/_components/footer";
+import PageWrapper from "@/app/_components/pageWrapper";
+import LoginForm from "@/app/_components/loginForm";
 
 export default function Login() {
   return (
