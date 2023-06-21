@@ -1,10 +1,9 @@
 import LogoHeader from "../logoHeader";
 import Button from "../button";
-import Footer from "../footer";
 import PageWrapper from "../pageWrapper";
-import LoginForm from "./loginForm";
+import NavigationBar from "./navigationBar";
 
-export default function Login() {
+export default function Dashboard() {
   return (
     <main className="flex h-[100dvh] flex-col items-center justify-between p-8 sm:p-24 overflow-x-hidden overflow-y-auto">
       {/* ✉️ Title */}
@@ -12,23 +11,15 @@ export default function Login() {
 
       <PageWrapper>
         {/* ✅ Form & Buttons */}
-        <div className="mb-32 flex flex-col gap-4 text-center lg:mb-0 z-20">
-          {/* 📝 Form */}
-          <LoginForm />
+        <h1 className="text-center">Dashboard</h1>
 
-          {/* 🆕 Register */}
-          <Button
-            href="/signup"
-            text="New here?"
-            subtext="Click to Sign up now!"
-            arrowPosition="none"
-            textSize="small"
-          />
+        <div className="mb-32 flex flex-col gap-4 text-center lg:mb-0 z-20">
+          <Button href="/" text="Home" arrowPosition="left" mainActionStyle />
         </div>
       </PageWrapper>
 
-      {/* 🦶 Footer */}
-      <Footer />
+      {/* ⚒️ Navigation Bar */}
+      <NavigationBar />
     </main>
   );
 }
